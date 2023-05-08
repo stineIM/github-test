@@ -1,0 +1,35 @@
+
+.grid {
+    width: 800px;
+    height: 800px;
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .grid div {
+    width: 75px;
+    height: 75px;
+    /*border:1px black solid;
+box-sizing:border-box*/
+  }
+  .snake {
+    background: blue;
+    background-image: url('images/man-left.png');
+    background-size: cover;
+  }
+  .apple {
+    background-image: url('images/garbage.jpg');
+    background-size: cover;
+  }
+  .popup {
+    background: rgb(32, 31, 31);
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
